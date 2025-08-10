@@ -1,0 +1,10 @@
+# Save at repo root as .gitpod.yml
+image: gitpod/workspace-full
+
+tasks:
+  - name: Run tests
+    command: >
+      echo "Make sure LT_USERNAME and LT_ACCESS_KEY are set in Gitpod Variables" &&
+      mvn -B test
+
+# Optionally open a terminal or show build logs in the workspace

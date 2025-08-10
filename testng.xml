@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Selenium101-Suite" parallel="tests" thread-count="4">
+    <test name="SimpleFormTest">
+        <classes>
+            <class name="com.lambdaTest.tests.SimpleFormTest"/>
+        </classes>
+    </test>
+    <test name="SliderTest">
+        <classes>
+            <class name="com.lambdaTest.tests.SliderTest"/>
+        </classes>
+    </test>
+    <test name="InputFormTest">
+        <classes>
+            <class name="com.lambdaTest.tests.InputFormTest"/>
+        </classes>
+    </test>
+</suite>
